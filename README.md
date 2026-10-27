@@ -23,3 +23,8 @@ Simple Java implementation demonstrating Abstract Class, Interface, Inheritance,
   Both `EWallet` and `BankTransfer` use `extends Payment` to inherit the core attributes (`transactionId`, `amount`) and the `displayBasicInfo()` method without rewriting them.
 * **Polymorphism**  
   Implemented through method overriding on `processPayment()` in each subclass (`EWallet` calculates a 5% cashback, while `BankTransfer` adds a Rp2,500 admin fee). In the `main` method, objects are also instantiated using the superclass reference (`Payment tx1 = new EWallet(...)`).
+
+
+## Output
+
+<img width="316" height="164" alt="image" src="https://github.com/user-attachments/assets/091541cd-1253-4c0a-a02d-a906e8d1cdff" />
